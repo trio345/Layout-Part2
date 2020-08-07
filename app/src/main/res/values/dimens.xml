@@ -10,6 +10,6 @@
     <dimen name="tv22sp">17sp</dimen>
     <dimen name="tv15sp">15sp</dimen>
     <dimen name="tv12sp">12sp</dimen>
-    <dimen name="height_content">50dp</dimen>
+    <dimen name="height_content">70dp</dimen>
     <dimen name="img60dp">80dp</dimen>
 </resources>
