@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register.MainRegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/space_default"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mainTitleRegist"
+            android:textSize="@dimen/spHead"
+            android:gravity="center_horizontal"
+            />
+
+        <EditText
+            android:id="@+id/etFullname"
+            style="@style/inputType"
+            android:drawableStart="@drawable/fullname_clip"
+            android:hint="@string/etFullname"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/etBornDate"
+            style="@style/inputType"
+            android:drawableStart="@drawable/date_born_clip"
+            android:hint="@string/tvDOB"
+            android:inputType="date" />
+        <EditText
+            android:id="@+id/etEmail"
+            style="@style/inputType"
+            android:drawableStart="@drawable/email_clip"
+            android:hint="Email"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/etPhoneNumber"
+            style="@style/inputType"
+            android:drawableStart="@drawable/phonenumber_clip"
+            android:hint="@string/placeholder_phonenumber"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            style="@style/inputType"
+            android:drawableStart="@drawable/password_clip"
+            android:hint="@string/tvPwd"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/etRepeat"
+            style="@style/inputType"
+            android:hint="@string/tvRPwd"
+            android:imeOptions="actionSend"
+            android:inputType="text" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_default"
+            android:background="#4CAF50"
+            android:textColor="@android:color/white"
+            android:text="@string/btnRegister"
+            />
+
+        <TextView
+            style="@style/inputType"
+            android:text="@string/tvAtau"
+            android:gravity="center_horizontal"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_default"
+            android:background="#3F51B5"
+            android:textColor="@android:color/white"
+            android:text="Sign Up with Facebook"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_default"
+            android:background="#526AED"
+            android:textColor="@android:color/white"
+            android:text="Sign Up with Twitter"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_default"
+            android:background="#E91E63"
+            android:textColor="@android:color/white"
+            android:text="Sign Up with Google+"
+            />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
